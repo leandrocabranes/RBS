@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700|Lora:400,700);
+body {
+  font-family: "Raleway", sans-serif; }
+
+.cabecera {
+  background: url("imagenes/headerbg.jpg");
+  height: 250px;
+  font-size: 4em;
+  font-family: "Raleway", sans-serif; }
+  .cabecera .cont-cabecera {
+    margin-top: 30px;
+    display: inline;
+    text-align: center; }
+    .cabecera .cont-cabecera h1 {
+      background: rgba(255, 255, 255, 0.5); }
+
+.fila {
+  padding-top: 30px;
+  color: #e7e7e7; }
+  .fila .articulo {
+    height: 300px;
+    padding: 0 30px;
+    background: #6f6f6f;
+    overflow: hidden; }
+
+.pie {
+  margin-top: 30px;
+  background-color: #535353; }
+  .pie li {
+    list-style: none;
+    line-height: 2em; }
+
+.pie-caja {
+  color: white;
+  padding: 0 30px 20px;
+  text-align: center; }
+  .pie-caja .fa {
+    font-size: 4em; }
+
+.sociales {
+  padding-top: 3em; }
+  .sociales .fa {
+    padding-left: 2em; }
+
+.navbar-rbce {
+  background-color: #535353;
+  border-radius: 0;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #fb7179;
+  transition: color 0.3s, background 0.3s;
+  font-size: 1.4em; }
+  .navbar-rbce .navbar-nav > .active > a {
+    color: white;
+    background: #fb7179; }
+    .navbar-rbce .navbar-nav > .active > a:hover, .navbar-rbce .navbar-nav > .active > a:focus {
+      color: #fb7179;
+      background: white; }
+  .navbar-rbce .navbar-nav > li > a {
+    color: white;
+    transition: all 0.3s; }
+    .navbar-rbce .navbar-nav > li > a:hover, .navbar-rbce .navbar-nav > li > a:focus {
+      color: #535353; }
+
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: white; }
+
+.navbar-toggle {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px; }
+  .navbar-toggle .icon-bar {
+    background: white; }
+
+.navbar-brand {
+  color: white; }
+  .navbar-brand:hover {
+    color: white; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,48 @@
+$color1: #535353
+$color5: white
+$accent: #fb7179
+
+.navbar-rbce
+  background-color: $color1
+  border:
+    radius: 0
+    bottom:
+      style: solid
+      width: 5px
+      color: $accent
+  transition: color 0.3s, background 0.3s
+  font-size: 1.4em
+  .navbar-nav
+    &>.active
+      &>a
+        color: white
+        background: $accent
+        &:hover, &:focus
+          color: $accent
+          background: white
+    &>li
+      &>a
+        color: white
+        transition: all 0.3s
+        &:hover, &:focus
+          color: $color1
+
+.nav
+  &>li
+    &>a
+      &:hover, &:focus
+        text-decoration: none
+        background-color: $color5
+
+.navbar-toggle
+  border:
+    style: solid
+    color: $color5
+    width: 2px
+  .icon-bar
+    background: $color5
+
+.navbar-brand
+  color: $color5
+  &:hover
+    color: $color5
